@@ -1,4 +1,4 @@
-# JavaNotes
+## JavaNotes
 done with:
 - [pattern1](https://markdown-it.github.io/)
 - [pattern2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
