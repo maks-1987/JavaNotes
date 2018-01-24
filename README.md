@@ -1,6 +1,6 @@
 # JavaNotes
 done with:
-- [pattern1](https://markdown-it.github.io/,https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+- [pattern1](https://markdown-it.github.io/)
 - [pattern2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 1. Примитивы, классы и объекты
 2. Операторы, конструкции (циклы), выражения, переменные и их область видимости, методы, модификаторы доступа
