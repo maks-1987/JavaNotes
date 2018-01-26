@@ -1,7 +1,5 @@
 # JavaNotes
-done with:
-- [pattern1](https://markdown-it.github.io/)
-- [pattern2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+
 ## 1. Примитивы, классы и объекты[\(1)](http://wikijava.it-cache.net/index.php@title=Glava_2_Thinking_in_Java_4th_edition.html)
 > Примитиные типы в Java делятся на 3 вида:
 - целые (1, -2, 99)
