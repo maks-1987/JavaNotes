@@ -9,3 +9,6 @@
 8. Streams
 9. Графический интерфейс 
 10. Ревью лекция
+> done with:
+- [Markdown-it](https://markdown-it.github.io/)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
