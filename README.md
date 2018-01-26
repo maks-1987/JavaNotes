@@ -1,6 +1,6 @@
 # JavaNotes
 
-### 1. [\Примитивы](http://wikijava.it-cache.net/index.php@title=Glava_2_Thinking_in_Java_4th_edition.html), классы и объекты[\1](http://wikijava.it-cache.net/index.php@title=Glava_2_Thinking_in_Java_4th_edition.html)
+### 1. Примитивы, [классы и объекты](http://wikijava.it-cache.net/index.php@title=Glava_2_Thinking_in_Java_4th_edition.html)
 > Примитиные типы в Java делятся на 3 вида:
 - целые (1, -2, 99)
 - вещественные (дробные)
