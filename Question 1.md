@@ -66,7 +66,7 @@ Java будет ругаться на последнюю строчку, так 
 ```
 breakfast = (short) (fishNumber + beefNumber);
 ```
-Это называется [\приведением чисел](http://developer.alexanderklimov.ru/android/java/types.php#cast). Класс Short является оболочкой для данного типа. Явно перевести строку с числом в тип short можно через метод parseShort(String):
+Это называется [приведением чисел](http://developer.alexanderklimov.ru/android/java/types.php#cast). Класс Short является оболочкой для данного типа. Явно перевести строку с числом в тип short можно через метод parseShort(String):
 ```
 short x = Short.parseShort("100");
 ```
