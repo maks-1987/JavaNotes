@@ -372,13 +372,12 @@ void checkforTextView(View view)
     }
 }
 ```
-#### import- Импорт класса
+#### import - Импорт класса
 Оператор import сообщает компилятору Java, где найти классы, на которые ссылается код. Любой сложный объект использует другие объекты для выполнения тех или иных функций, и оператор импорта позволяет сообщить о них компилятору Java. Оператор импорта обычно выглядит так:
 ```java
 import ClassNameToImport;
 ```
-За ключевым словом import следуют класс, который нужно импортировать, и точка с запятой. Имя класса должно быть полным, то есть включать свой пакет. Чтобы импортировать все классы из пакета, после имени пакета можно поместить .*.
-
+За ключевым словом import следуют класс, который нужно импортировать, и точка с запятой. Имя класса должно быть полным, то есть включать свой пакет. Чтобы импортировать все классы из пакета, после имени пакета можно поместить .* 
 Если мена классов совпадают, то IDE может запросить помощь. Тогда вам нужно вручную указать нужное полное имя класса. Импорт позволяет избежать долгого набора имени класса. Без импорта нам пришлось бы писать все классы в коде программы полностью.
 ```java
 ru.alexanderklimov.MyClass.Cat.sayMeow();
@@ -401,6 +400,50 @@ hypot = sqrt(pow(side1, 2) + pow(side2, 2));
 import static java.lang.Math.*;
 ```
 В этом случае вам не нужно импортировать отдельные методы. Но такой подход в Android не рекомендуется, так как требует больше памяти.
+
+#### Программно получить имя класса
+
+Иногда из программы нужно получить имя используемого класса. Для этого есть специальные методы getClass().getName() и другие родственные методы. Допустим, нам нужно узнать имя класса кнопки, на которую мы нажимаем в программе.
+```java
+public void onClick(View view) {
+    String className = view.getClass().getName();
+    String simpleName = view.getClass().getSimpleName();
+    String canonicalName = view.getClass().getCanonicalName();
+
+    if (canonicalName == null) {
+        canonicalName = "null";
+    }
+    String s = "Имя класса: " + className + "\n" + "SimpleName: " + simpleName
+            + "\n" + "CanonicalName: " + canonicalName + "\n";
+    mInfoTextView.setText(s);
+}
+```
+Получим варианты:
+```
+Имя класса: android.support.v7.widget.AppCompatButton
+SimpleName: AppCompatButton
+CanonicalName: android.support.v7.widget.AppCompatButton
+```
+`getSimpleName()` возвращает только имя класса без пакета, другие методы вернут полное название. Если нужно узнать имя класса активности, то достаточно кода:
+```java
+// подставьте имя вашей активности
+String className = MainActivity.class.getName();
+```
+Если вам известно имя класса, то можете получить сам класс:
+```java
+try {
+    // получим объект Class
+	Class<?> myClass = Class.forName("ru.alexanderklimov.test.MainActivity");
+	mInfoTextView.setText(myClass.getName()); // выводим в TextView
+    
+    Intent intent = new Intent(this, myClass);
+    startActivity(intent);
+} catch (ClassNotFoundException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
+```
+Метод `getSuperclass()` возвращает имя суперкласса. Остальные несколько десятков методов не столь популярны.
 
 
 ## 2. Операторы, конструкции (циклы), выражения[\(2)](http://www.quizful.net/post/Java-RegExp), переменные и их область видимости, методы, модификаторы доступа
