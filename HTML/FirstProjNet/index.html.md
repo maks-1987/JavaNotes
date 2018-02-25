@@ -22,7 +22,7 @@
   <table>
     <tr>
       <td><b align="center">Page Structure in HTML5</b><hr/>
-        <!-- <img src="https://github.com/maks-1987/JavaNotes/blob/master/resources/StructureHTML5.jpg" width="85%"> --></td>
+         <img src="https://github.com/maks-1987/JavaNotes/blob/master/resources/StructureHTML5.jpg" width="85%"> </td>
       <td>11111111</td>
     </tr>
     <tr>
