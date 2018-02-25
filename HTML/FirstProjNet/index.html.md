@@ -15,18 +15,28 @@
   <font size="+2" color="#ff0000">вареньё!!!</font> С нетерпеньем буду ждать Вашего приглашения.
   </font>
   </p>
-     <header>
+  <header>
         <h1 align="center"> Most important heading </h1>
         <h3 align="center"> Less important heading </h3>
-     </header>
-  
+  </header>
   <table>
     <tr>
       <td><b align="center">Page Structure in HTML5</b><hr/>
-        <img src="https://api.sololearn.com/DownloadFile?id=2471" width="100%"><td>
+        <img src="https://github.com/maks-1987/JavaNotes/blob/master/resources/StructureHTML5.jpg" width="85%"><td>
       <td></td>
     </tr>
   </table>
+  
+  The 'nav' Element<hr/>
+This tag represents a section of a page that links to other pages or to certain sections within the page. This would be a section with navigation links.
+  Here is an example of a major block of navigation links:
+<nav>
+   <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About us</a></li>
+   </ul>
+</nav>
  
 </body>
 </html>
