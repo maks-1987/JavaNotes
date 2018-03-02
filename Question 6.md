@@ -58,7 +58,7 @@
     </tr>
   </table>
 </p>
-В дополнение к этим интерфейсам, коллекции также используют интерфейсы `Comparator, RandomAccess, Iterator и  Listlterator`.
+В дополнение к этим интерфейсам, коллекции также используют интерфейсы <ins>Comparator, RandomAccess, Iterator и Listlterator.</ins>
 
 
 
