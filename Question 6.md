@@ -58,7 +58,8 @@
     </tr>
   </table>
 </p>
-В дополнение к этим интерфейсам, коллекции также используют интерфейсы <ins>Comparator, RandomAccess, Iterator и Listlterator.</ins>
+В дополнение к этим интерфейсам, коллекции также используют интерфейсы <ins>Comparator, RandomAccess, Iterator и Listlterator.</ins> 
+Интерфейс Comparator определяет два сравниваемых объекта; интерфейсы Iterator и Listlterator перечисляют объекты в коллекции. Реализуя интерфейс RandomAccess, список поддерживает эффективный произвольный доступ к своим элементам.
 
 
 
