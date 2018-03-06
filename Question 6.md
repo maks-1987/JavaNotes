@@ -167,6 +167,9 @@
 
 ## Классы коллекций
 
+Базовые классы коллекций
+[](https://github.com/maks-1987/JavaNotes/blob/master/resources/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D1%8B%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA.PNG)
+
 
 
 
