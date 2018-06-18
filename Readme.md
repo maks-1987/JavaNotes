@@ -11,7 +11,6 @@
 9. Графический интерфейс 
 10. Ревью лекция
 > links:
-- Герберт Шилдт. -  "Java. Полное руководство, *8-е изд*."
 - [Markdown-it](https://markdown-it.github.io/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
 - [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/index.html)
