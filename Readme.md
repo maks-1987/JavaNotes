@@ -9,7 +9,7 @@
 7. Классы String, Date, утилитарные методы Collections
 8. Streams
 9. Графический интерфейс 
-10. Ревью лекция
+10. Ревью лекция </br>
 > links:
 - [Markdown-it](https://markdown-it.github.io/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
